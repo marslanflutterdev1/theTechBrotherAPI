@@ -116,6 +116,8 @@ class _PostAPIScreenState extends State<PostAPIScreen> {
                           padding: const EdgeInsets.only(left: 0),
                           child: CircleAvatar(
                             backgroundColor: Colors.lightBlue,
+
+
                             child: Text(
                               '${myAPIList[index].userId}',
                               style: const TextStyle(color: Colors.white),
